@@ -1,15 +1,14 @@
 # PV FFLS Digital-Twin Data-Admission Repository Materials (R6R1)
 
-This repository bundle accompanies the double-blind conference manuscript:
+This repository accompanies the double-blind conference manuscript:
 
 **Physically Invalid Uncertainty from Valid PV Channels: Closure-Preserving Fuzzy Data Admission for Digital Twins**
 
-
 ## Upload status
 
-This is the **R6R1 GitHub/Zenodo upload-ready repository bundle (2026-09-07 checked copy)**. It is prepared for either: (i) a private/anonymized review-support archive during double-blind review, or (ii) a public post-acceptance repository after author/institution approval.
+This is the **R6R1 GitHub-only repository bundle (2026-09-07 checked copy)**. It is prepared as a private/anonymized review-support repository during double-blind review, or as a public post-acceptance repository after author/institution approval.
 
-Do **not** publish a named repository before checking the target venue's double-blind policy. Add final author names, affiliations, ORCID identifiers, accepted-paper citation, DOI, and an approved license only when appropriate.
+Do **not** make the repository public before checking the target venue's double-blind policy. Add final author names, affiliations, ORCID identifiers, accepted-paper citation, DOI, and an approved license only when appropriate.
 
 ## Scientific scope
 
@@ -62,17 +61,10 @@ Expected checks include exact or tolerance-controlled reproduction of the center
 
 ## Data availability boundaries
 
-The PV derived daily table and derived result files are included. The package does not redistribute raw SWaT historian data. Reproducing the SWaT component from raw data requires an independently authorized copy from iTrust, Centre for Research in Cyber Security, Singapore University of Technology and Design.
+The PV derived daily table and derived result files are included in the complete local upload-ready package. The repository must not redistribute raw SWaT historian data. Reproducing the SWaT component from raw data requires an independently authorized copy from iTrust, Centre for Research in Cyber Security, Singapore University of Technology and Design.
 
 See `DATA_AVAILABILITY_AND_BOUNDARIES.md` and `NO_RAW_SWAT_DATA_NOTICE.txt`.
 
-## Citation and Zenodo metadata
+## Citation metadata
 
-The repository includes:
-
-- `CITATION.cff`
-- `.zenodo.json`
-- `RELEASE_NOTES_R6R1.md`
-- `MANIFEST_SHA256.txt`
-
-Before public release, update author metadata, license, accepted-paper citation, and DOI according to the final venue policy.
+The repository includes `CITATION.cff`. Before public release, update author metadata, license, accepted-paper citation, and DOI according to the final venue policy.
