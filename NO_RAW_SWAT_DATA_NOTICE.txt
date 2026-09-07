@@ -1,0 +1,1 @@
+This release intentionally contains no raw SWaT spreadsheet or redistributed controlled iTrust data. Do not add raw SWaT bytes to any public, GitHub, Zenodo, collaborator, or conference supplementary package.
