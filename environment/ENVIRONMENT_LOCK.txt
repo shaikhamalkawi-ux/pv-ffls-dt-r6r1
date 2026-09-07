@@ -1,0 +1,8 @@
+Python 3.12.14
+Platform Windows-11-10.0.22631-SP0
+NumPy 2.3.5
+Pandas 3.0.1
+SciPy 1.18.1
+Matplotlib 3.11.1
+psutil 7.2.2
+Tolerance 1e-12
