@@ -1,0 +1,1 @@
+PDF artifacts are included in the local R6R2 upload-ready ZIP. If binary upload is not available through the connector, upload the ZIP manually or through GitHub web interface.
