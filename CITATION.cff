@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Physically Invalid Uncertainty from Valid PV Channels: Closure-Preserving Fuzzy Data Admission for Digital Twins"
+message: "Please cite the accepted paper and the final persistent repository DOI when available. Replace anonymous creator metadata before public post-review release if required."
+type: software
+abstract: "Repository materials for the R6R1 PV FFLS digital-twin data-admission manuscript, including reproducibility scripts, derived PV results, closure-preserving alpha-cut outputs, SWaT aggregate pilot results, figures, source notes, and LaTeX source. Raw SWaT data are not redistributed."
+version: "R6R1"
+date-released: "2026-09-07"
+keywords:
+  - photovoltaic systems
+  - digital twins
+  - fully fuzzy linear systems
+  - alpha cuts
+  - uncertainty dependence
+  - data admission
+  - measurement reconciliation
+  - PVDAQ
+  - SWaT
+authors:
+  - name: "Anonymous Authors"
