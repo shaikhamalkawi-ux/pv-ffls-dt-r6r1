@@ -6,7 +6,7 @@ This repository accompanies the double-blind conference manuscript:
 
 ## Upload status
 
-This is the **R6R1 GitHub-only repository bundle (2026-09-07 checked copy)**. It is prepared as a private/anonymized review-support repository during double-blind review, or as a public post-acceptance repository after author/institution approval.
+This is the **R6R1 GitHub/Zenodo upload-ready repository bundle (2026-09-07 checked copy)**. It is prepared for either: (i) a private/anonymized review-support archive during double-blind review, or (ii) a public post-acceptance repository after author/institution approval.
 
 Do **not** make the repository public before checking the target venue's double-blind policy. Add final author names, affiliations, ORCID identifiers, accepted-paper citation, DOI, and an approved license only when appropriate.
 
@@ -65,6 +65,6 @@ The PV derived daily table and derived result files are included in the complete
 
 See `DATA_AVAILABILITY_AND_BOUNDARIES.md` and `NO_RAW_SWAT_DATA_NOTICE.txt`.
 
-## Citation metadata
+## Citation and Zenodo metadata
 
-The repository includes `CITATION.cff`. Before public release, update author metadata, license, accepted-paper citation, and DOI according to the final venue policy.
+The repository can include `CITATION.cff` and `.zenodo.json` when a Zenodo deposit is desired later. Before public release, update author metadata, license, accepted-paper citation, and DOI according to the final venue policy.
