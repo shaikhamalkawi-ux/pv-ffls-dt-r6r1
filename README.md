@@ -1,44 +1,34 @@
-# PV FFLS Digital-Twin Data-Admission Repository Materials (R6R1)
+# Closure-Preserving Fuzzy Data Admission for AI-Ready PV Digital Twins
 
-This repository accompanies the double-blind conference manuscript:
+This repository supports the paper:
 
-**Physically Invalid Uncertainty from Valid PV Channels: Closure-Preserving Fuzzy Data Admission for Digital Twins**
+**Closure-Preserving Fuzzy Data Admission for AI-Ready PV Digital Twins**
 
-## Upload status
+Current manuscript package: **PV_FFLS_DT_R6R15_AuthorGitHub**.
 
-This is the **R6R1 GitHub/Zenodo upload-ready repository bundle (2026-09-07 checked copy)**. It is prepared for either: (i) a private/anonymized review-support archive during double-blind review, or (ii) a public post-acceptance repository after author/institution approval.
+## Data and code availability
 
-Do **not** make the repository public before checking the target venue's double-blind policy. Add final author names, affiliations, ORCID identifiers, accepted-paper citation, DOI, and an approved license only when appropriate.
+The reproducibility archive, derived data tables, alpha-cut certificates, and scripts are publicly available in the project GitHub repository.
 
-## Scientific scope
+## Included materials
 
-R6R1 is a notation-closure cleanup of R6. It adds spread-scaling definitions, the explicit width functional, support-function definition, SWaT notation definitions, and derivative closure in the Supplement. It does **not** change any scientific result, dataset, model structure, title, conclusion, or claim boundary.
+The repository/package is intended to provide:
 
-Locked manuscript results include:
+- manuscript PDFs and LaTeX source;
+- derived PV daily/reproducibility tables;
+- closure-preserving alpha-cut certificate outputs;
+- retained mechanism-audit replicate summaries;
+- reproduction scripts;
+- paper figures;
+- source-boundary notes.
 
-- PV paired days: `2447`
-- Width distortion: `D_width = 9.2409066`
-- Independent-marginal admissible area: `1.8365%`
-- Active boundary: `lambda_A,max = 0.036729764`
-- Maximum row-closure error: `0.1713120512`
-- Shared-latent alpha-cut certificate: positive over full support
-- SWaT structural pilot: `R^2 = 0.9846948322` over 133 complete attack-free 60-s windows
+## Important data boundary
 
-The SWaT result is a bounded structural-admission/state-consistency demonstration. It is **not** a cyberattack detector and does **not** externally validate the PV fuzzy/FFLS alpha-cut model.
+Raw SWaT historian data are **not** redistributed. Researchers who want to reproduce any SWaT-related source-boundary check must obtain their own authorized copy directly from iTrust, Centre for Research in Cyber Security, Singapore University of Technology and Design.
 
-## Directory structure
+## Claim boundary
 
-```text
-paper/                         Final R6R1 PDFs
-manuscript_source/             LaTeX sources for main and supplement
-figures/                       Publication figures used by the paper
-derived_results/pv/            PV derived reproducibility tables and checks
-derived_results/closure/       Closure-preserving fuzzy alpha-cut outputs
-derived_results/swat/          SWaT aggregate outputs only; no raw data
-environment/                   Python requirements and environment notes
-scripts/                       Reproduction scripts for derived checks
-evidence/                      Source-boundary notes
-```
+This repository supports a PV digital-twin data-admission layer. It does not claim a complete digital twin, AI benchmark, cyberattack detector, fault classifier, controller, or external numerical validation of the PV fuzzy/FFLS model from SWaT.
 
 ## Reproduction
 
@@ -54,17 +44,6 @@ Run checks:
 python scripts/reproduce_pv_state.py
 python scripts/reproduce_alpha_certificate.py
 python scripts/reproduce_mechanism_widths.py
-python scripts/summarize_swat_metrics.py
 ```
 
-Expected checks include exact or tolerance-controlled reproduction of the center state, alpha-cut certificate, mechanism-width ratio, and SWaT aggregate metrics.
-
-## Data availability boundaries
-
-The PV derived daily table and derived result files are included in the complete local upload-ready package. The repository must not redistribute raw SWaT historian data. Reproducing the SWaT component from raw data requires an independently authorized copy from iTrust, Centre for Research in Cyber Security, Singapore University of Technology and Design.
-
-See `DATA_AVAILABILITY_AND_BOUNDARIES.md` and `NO_RAW_SWAT_DATA_NOTICE.txt`.
-
-## Citation and Zenodo metadata
-
-The repository can include `CITATION.cff` and `.zenodo.json` when a Zenodo deposit is desired later. Before public release, update author metadata, license, accepted-paper citation, and DOI according to the final venue policy.
+The expected checks reproduce the PV center state, the closure-preserving alpha-cut certificate, and the mechanism-width summaries from the included derived tables.
