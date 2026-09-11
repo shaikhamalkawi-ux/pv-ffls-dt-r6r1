@@ -1,10 +1,12 @@
 # Data availability and boundaries
 
+The reproducibility archive, derived data tables, alpha-cut certificates, and scripts are publicly available in the project GitHub repository.
+
 ## Included
 
 - Derived PV daily table and reproduction outputs for the public PVDAQ system 2107 analysis.
 - Closure-preserving alpha-cut support tables and certificate outputs.
-- Aggregate SWaT structural-pilot results, hashes, and reporting files.
+- Retained mechanism-audit replicate summaries.
 - Manuscript figures and source notes.
 - Reproduction scripts for reported derived quantities.
 
@@ -14,4 +16,4 @@ Raw SWaT physical historian files are not redistributed. Reproducing researchers
 
 ## Claim boundary
 
-This repository supports a PV digital-twin data-admission layer. It does not claim a complete digital twin, AI benchmark, cyberattack detector, fault classifier, or controller. The SWaT portion is a bounded structural-transfer pilot only.
+This repository supports a PV digital-twin data-admission layer. It does not claim a complete digital twin, AI benchmark, cyberattack detector, fault classifier, controller, or external numerical validation of the PV fuzzy/FFLS model from SWaT.
